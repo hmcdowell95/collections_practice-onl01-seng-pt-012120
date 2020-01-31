@@ -33,7 +33,15 @@ def kesha_maker(array)
 end
 
 def find_a(letter)
-  
+  na = []
+  letter.collect do |i|
+    a = i.chars
+    if a = "a"
+      na << a
+    else
+      nil
+    end
+    
   end
 end
     
