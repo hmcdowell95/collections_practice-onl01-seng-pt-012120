@@ -45,6 +45,7 @@ def find_a(letter)
   na
 end
     
+def sum_array(array)
   
   
   
