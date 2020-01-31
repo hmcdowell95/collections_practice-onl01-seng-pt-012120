@@ -46,7 +46,8 @@ def find_a(letter)
 end
     
 def sum_array(array)
-  
+  array.sum 
+end
   
   
   
