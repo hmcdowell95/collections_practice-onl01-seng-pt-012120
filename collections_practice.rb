@@ -48,6 +48,19 @@ end
 def sum_array(array)
   array.sum 
 end
+
+def add_s(array)
+  na = []
+  array.collect do |i|
+    if array[1] == i 
+      na << i 
+    else
+      na << "#{i}s"
+    end
+  end
+  na
+end
+      
   
   
   
