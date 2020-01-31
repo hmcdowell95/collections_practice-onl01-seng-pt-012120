@@ -36,13 +36,13 @@ def find_a(letter)
   na = []
   letter.collect do |i|
     a = i.chars
-    if a = "a"
-      na << a
+    if a[0] == "a"
+      na << i
     else
       nil
-    end
-    
+    end 
   end
+  na
 end
     
   
